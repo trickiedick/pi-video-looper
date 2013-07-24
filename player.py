@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
-
 # imports
 import subprocess
 from subprocess import Popen, PIPE, STDOUT
@@ -12,7 +10,9 @@ import piface.pfio
 # constants & decs
 
 # PLAYER 1
+# This is the path and filename of the video file to loop
 movie_path = '/media/usb0/white_screen_1.mp4'
+# This is a path to one (or using wildcards - several) picture files
 picture_path = '/media/usb0/*.jpg'
 halting=0
 stopping=0
